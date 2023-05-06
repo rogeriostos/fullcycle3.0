@@ -1,11 +1,16 @@
-# FullCycle 3.0
+<img src="https://img.shields.io/badge/Docker-Multi Stage%20-blue">
+<img src="https://img.shields.io/badge/Go-Lang%20-blue">
 
-Bem-vindo ao meu repositório de treinamento e desafios de programação!
+# Imagem Docker Full Cycle
 
-Aqui é onde eu guardo todas as minhas tentativas (e erros) de melhorar minhas habilidades como programador.
+Essa é uma imagem Docker criada com a linguagem Go que exibe a mensagem "Full Cycle Rocks!!" quando executada. Ela foi criada como parte do desafio do Full Cycle Developer, utilizando o recurso de multi-stage do Docker e a imagem oficial **scratch** como base da imagem final, o que nos permitiu ter uma imagem final menor que 2MB.
 
-Você encontrará uma variedade de exercícios e desafios de diferentes níveis de dificuldade, desde coisas básicas até coisas mais avançadas que vão fazer você coçar a cabeça. Mas não se preocupe, estou aqui para ajudá-lo em cada etapa do caminho!
+## Como usar essa imagem
 
-Este repositório é mais do que apenas um lugar para eu guardar meus códigos - é um registro do meu progresso e da minha jornada para me tornar um programador melhor. Estou constantemente adicionando novos desafios e aprendendo coisas novas, então volte sempre para conferir as atualizações.
+Para usar essa imagem, você precisa ter o Docker instalado na sua máquina. Em seguida, execute o seguinte comando:
 
-E não se esqueça: não importa o quão difícil seja um desafio, o importante é se divertir! Então pegue seu café, coloque sua música favorita e vamos codificar!
+```docker
+docker run rogeriostos/fullcycle
+```
+
+Isso irá executar a imagem e exibir a mensagem "Full Cycle Rocks!!"
